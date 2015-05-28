@@ -34,8 +34,8 @@ int buscar (struct Coche taller[], char matricula[]) {
 
 
 void ordenar (struct Coche taller[]){
-		for(int i=0;i<3;i++){
-			for(int j=i+1;j<3;j++){
+		for(int i=0;i<size(taller);i++){
+			for(int j=i+1;j<size(taller);j++){
 				if(taller[i].cv<taller[j].cv){
 					struct Coche aux;
 					taller[i]=taller[j];
