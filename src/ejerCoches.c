@@ -50,7 +50,7 @@ int main(void) {
 	int i=0;
 	struct Coche taller[num];
 	for(i=0;i<num;i++){
-		printf("\nIntroduce los datos del coche %d",i+1);
+		printf("\nIntroduce los datos del coche %d !!!!!!",i+1);
 		printf("\nMatricula: ");
 		gets(taller[i].matricula);
 		printf("\nMarca: ");
