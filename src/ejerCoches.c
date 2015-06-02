@@ -132,13 +132,13 @@ int main(void) {
         switch(caso)
         {
             case 1:
-                printf("Introduzca la matricula\n");
+                printf("Introduzca la matricula del coche\n");
                 gets(aux.matricula);
-                printf("Introduzca la marca\n");
+                printf("Introduzca la marca del coche\n");
                 gets(aux.marca);
-                printf("Introduzca el modelo\n");
+                printf("Introduzca el modelo del coche\n");
                 gets(aux.modelo);
-                printf("Introduzca los cv\n");
+                printf("Introduzca los cv del coche\n");
                 scanf("%d", &aux.cv);
                 setbuf(stdin, NULL);
                 printf("%d", insertar(aux, taller));
